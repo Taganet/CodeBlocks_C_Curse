@@ -18,6 +18,8 @@ int main()
     printf("Numeros Flutuante ========================================\n");
     printf("Numero %2.2f e float!\n\n\n", 2.4);
 
+    system("pause");
+
     //Operadores Aritmeticos Basicos
     /*
         Soma            +
@@ -31,6 +33,8 @@ int main()
     printf("Multiplicacao de 5 * 2: %d \n", 5 * 2);
     printf("Divisao de 5 / 2: %1.1f \n\n", 5 / 2.0);
 
+    system("pause");
+
     // Exercício //
     printf("Exercicio ================================================\n");
 
@@ -38,7 +42,7 @@ int main()
         1) Imprima na tela aseguinte mensagem:
         "Eu quero ser um aluno nota 10"
     */
-     printf("Eu quero ser um aluno nota %d!\n", 10);
+    printf("Eu quero ser um aluno nota %d!\n", 10);
 
     //  2) Maria tem 40 e João tem 52, mostre na tela a soma da idade deles.
     printf("Maria tem 40 e Joao 52, a soma de suas idades e: %d\n", 40 + 52);
@@ -47,7 +51,26 @@ int main()
     printf("Marcelo comprou 5 tomates a 2,30 e pagou %2.2f no total\n", 5 * 2.3);
 
     //  4) Joana comprou 23 caia de leite e gastou um total de 57,5 reais. Qual era o preço da caixa de leite?
-    printf("Joana comprou 23 caixas de leite pagando %2.2f por cada\n", 57.5 / 23);
+    printf("Joana comprou 23 caixas de leite pagando %2.2f por cada\n\n", 57.5 / 23);
+
+    system("pause");
+
+    // Variáveis //
+    printf("Variaves ================================================\n");
+
+    int x;
+    float cons;
+    float result;
+
+    x = 5;
+    cons = 3.14;
+    result = x * cons;
+
+    printf("O valor da variavel X e: %d \n", x);
+    printf("O valor de cons e: %.2f \n", cons);
+    printf("O resultado e: %.2f \n\n", result);
+
+
 
     return 0;
 }
